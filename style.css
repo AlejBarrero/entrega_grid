@@ -61,8 +61,8 @@ body {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     body {
-        grid-template-rows: auto auto auto;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1f);
+        grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "header school"
             "student main"
@@ -73,7 +73,8 @@ body {
 
 @media (max-width: 768px) {
     body {
-        grid-template-rows: auto auto auto;
+        grid-template-rows: 300px;
+        grid-auto-rows: 300px;
         grid-template-columns: 1fr;
         grid-template-areas:
             "header"
